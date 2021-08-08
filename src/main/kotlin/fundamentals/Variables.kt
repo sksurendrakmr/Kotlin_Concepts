@@ -118,12 +118,6 @@ fun kotlinStringTypes(){
     var age=23
     println("Hello $name. Your age is $age and Yor name is ${name.length} character longs")
 }
-
-fun kotlinBuiltInTypes(){
-    kotlinNumberTypes()
-    kotlinStringTypes()
-}
-
 fun kotlinBooleanTypes(){
     var isBlank:Boolean = false
     println(isBlank)
@@ -131,10 +125,17 @@ fun kotlinBooleanTypes(){
     isBlank = "".isBlank()
     println(isBlank)
 }
+
+fun kotlinBuiltInTypes(){
+    kotlinNumberTypes()
+    kotlinStringTypes()
+    kotlinBooleanTypes()
+}
+
+
 fun main(){
 //    mutableVariables()
 //    readOnlyVariables()
 //    defineTypesExplicitlyInVariables()
 //    kotlinBuiltInTypes()
-    kotlinBooleanTypes()
 }
