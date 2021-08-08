@@ -134,8 +134,8 @@ fun kotlinBuiltInTypes(){
 
 
 fun main(){
-//    mutableVariables()
-//    readOnlyVariables()
-//    defineTypesExplicitlyInVariables()
-//    kotlinBuiltInTypes()
+    mutableVariables()
+    readOnlyVariables()
+    defineTypesExplicitlyInVariables()
+    kotlinBuiltInTypes()
 }
